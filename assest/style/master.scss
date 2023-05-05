@@ -1,0 +1,286 @@
+main {
+    .hed{
+        height: 100vh;
+    }
+
+    >div {
+        >div {
+            >div {
+
+                >div:nth-of-type(2) {
+                    background-image: url(../img/IMG_2836.JPG);
+                    height: 100vh;
+                    background-size: cover;
+                    object-fit: cover;
+                    background-position: 0% 30%;
+                    background-repeat: no-repeat;
+
+                    >div {
+                        width: 100%;
+                        height: 100%;
+                        background-color: rgba(128, 128, 128, 0.274);
+
+                    }
+
+                }
+            }
+        }
+    }
+
+    .pic {
+        height: 50px;
+
+        >img {
+            background-size: cover;
+            height: 100%;
+        }
+    }
+
+    .pic1 {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+
+
+        >img {
+            border-radius: 50%;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+        }
+    }
+
+    .para {
+        >i {
+            color: white;
+
+            &:hover {
+                color: blue;
+            }
+        }
+    }
+
+    .txt {
+        >div {
+            >div {
+                color: rgba(128, 128, 128, 0.699);
+
+                &:hover {
+                    color: white;
+                }
+
+                >i {
+                    &:hover {
+                        color: blue;
+                    }
+                }
+            }
+        }
+    }
+
+    .br {
+        height: 200px;
+        border-radius: 10%;
+        background-color: rgba(0, 0, 0, 0.363);
+    }
+
+
+
+    .ani {
+        overflow: hidden;
+
+        >div:nth-of-type(2) {
+
+            overflow: hidden;
+
+            >ul {
+
+                // background-color: rgb(203, 240, 39);
+                animation: para linear infinite alternate 5s;
+
+                >li {
+                    top: 5px;
+                    list-style-type: none;
+                    font-weight: bolder;
+
+                    &:nth-of-type(1) {
+                        top: 0px;
+
+                    }
+
+                    &:nth-of-type(2) {
+                        top: 50px;
+
+                    }
+
+                    &:nth-of-type(3) {
+                        top: 100px;
+
+                    }
+
+                }
+
+                @keyframes para {
+                    0% {
+                        top: 5px;
+                    }
+
+                    10% {
+                        top: 5px;
+                    }
+
+                    20% {
+                        top: -50px;
+                    }
+
+                    40% {
+                        top: -50px;
+                    }
+
+                    50% {
+                        top: -100px;
+                    }
+
+                    70% {
+                        top: -100px;
+                    }
+
+                    80% {
+                        top: -50px;
+                    }
+
+                    100% {
+                        top: -50px;
+                    }
+                }
+
+            }
+
+        }
+    }
+
+    .para2 {
+        background-color: rgba(127, 255, 212, 0.377);
+
+        >h2 {
+            border: 1px solid black;
+            border-radius: 10px;
+            font-size: 25px;
+        }
+
+        .pic2 {
+            height: 300px;
+            border-radius: 10px;
+
+            >img {
+                border-radius: 10px;
+                width: 90%;
+                height: 90%;
+                background-size: cover;
+                margin: 13px 15px;
+            }
+        }
+
+        .dec {
+            border-radius: 10px;
+
+            >h2 {
+                font-size: 20px;
+            }
+
+            >div {
+                >ul {
+
+                    >li {
+                        border-radius: 10px;
+                        line-height: 50px;
+                        font-weight: bolder;
+
+                        // background-color: aqua;
+                        >p {
+                            font-weight: normal;
+
+                        }
+                    }
+                }
+            }
+        }
+
+        .dec1 {
+            border-radius: 10px;
+        }
+
+        .pic3 {
+
+            >img {
+                width: 100%;
+                height: 90%;
+                background-size: cover;
+            }
+        }
+
+        .dec2 {
+            border-radius: 20px;
+            background-color: white;
+        }
+
+        .pic4 {
+
+            >img {
+                width: 100%;
+                height: 100%;
+
+            }
+        }
+
+        .pic5 {
+            width: 100%;
+            height: 100%;
+
+            >img {
+                width: 100%;
+                height: 100%;
+                background-size: cover;
+            }
+        }
+
+        .bt {
+            border-radius: 10px;
+
+            &:hover {
+                background-color: blue;
+            }
+        }
+
+        .dec5 {
+            border-radius: 10px;
+        }
+
+        .bt {
+            >section {
+                >i {
+                    font-size: 40px;
+
+                    &:hover {
+                        color: blue;
+                    }
+                }
+            }
+        }
+        .bt3{
+            &:hover {
+                background-color: rgba(0, 0, 255, 0.801);
+            }
+        }
+        .pic6{
+            height: 250px;
+            border-radius: 20px;
+            >img{
+                width: 100%;
+                height: 100%;
+                background-size: cover;
+                border-radius: 20px;
+            }
+        }
+    }
+}

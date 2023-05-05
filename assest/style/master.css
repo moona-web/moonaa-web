@@ -1,0 +1,190 @@
+main .hed {
+  height: 100vh;
+}
+main > div > div > div > div:nth-of-type(2) {
+  background-image: url(../img/IMG_2836.JPG);
+  height: 100vh;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: 0% 30%;
+  background-repeat: no-repeat;
+}
+main > div > div > div > div:nth-of-type(2) > div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(128, 128, 128, 0.274);
+}
+main .pic {
+  height: 50px;
+}
+main .pic > img {
+  background-size: cover;
+  height: 100%;
+}
+main .pic1 {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+main .pic1 > img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+main .para > i {
+  color: white;
+}
+main .para > i:hover {
+  color: blue;
+}
+main .txt > div > div {
+  color: rgba(128, 128, 128, 0.699);
+}
+main .txt > div > div:hover {
+  color: white;
+}
+main .txt > div > div > i:hover {
+  color: blue;
+}
+main .br {
+  height: 200px;
+  border-radius: 10%;
+  background-color: rgba(0, 0, 0, 0.363);
+}
+main .ani {
+  overflow: hidden;
+}
+main .ani > div:nth-of-type(2) {
+  overflow: hidden;
+}
+main .ani > div:nth-of-type(2) > ul {
+  animation: para linear infinite alternate 5s;
+}
+main .ani > div:nth-of-type(2) > ul > li {
+  top: 5px;
+  list-style-type: none;
+  font-weight: bolder;
+}
+main .ani > div:nth-of-type(2) > ul > li:nth-of-type(1) {
+  top: 0px;
+}
+main .ani > div:nth-of-type(2) > ul > li:nth-of-type(2) {
+  top: 50px;
+}
+main .ani > div:nth-of-type(2) > ul > li:nth-of-type(3) {
+  top: 100px;
+}
+@keyframes para {
+  0% {
+    top: 5px;
+  }
+  10% {
+    top: 5px;
+  }
+  20% {
+    top: -50px;
+  }
+  40% {
+    top: -50px;
+  }
+  50% {
+    top: -100px;
+  }
+  70% {
+    top: -100px;
+  }
+  80% {
+    top: -50px;
+  }
+  100% {
+    top: -50px;
+  }
+}
+main .para2 {
+  background-color: rgba(127, 255, 212, 0.377);
+}
+main .para2 > h2 {
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 25px;
+}
+main .para2 .pic2 {
+  height: 300px;
+  border-radius: 10px;
+}
+main .para2 .pic2 > img {
+  border-radius: 10px;
+  width: 90%;
+  height: 90%;
+  background-size: cover;
+  margin: 13px 15px;
+}
+main .para2 .dec {
+  border-radius: 10px;
+}
+main .para2 .dec > h2 {
+  font-size: 20px;
+}
+main .para2 .dec > div > ul > li {
+  border-radius: 10px;
+  line-height: 50px;
+  font-weight: bolder;
+}
+main .para2 .dec > div > ul > li > p {
+  font-weight: normal;
+}
+main .para2 .dec1 {
+  border-radius: 10px;
+}
+main .para2 .pic3 > img {
+  width: 100%;
+  height: 90%;
+  background-size: cover;
+}
+main .para2 .dec2 {
+  border-radius: 20px;
+  background-color: white;
+}
+main .para2 .pic4 > img {
+  width: 100%;
+  height: 100%;
+}
+main .para2 .pic5 {
+  width: 100%;
+  height: 100%;
+}
+main .para2 .pic5 > img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+main .para2 .bt {
+  border-radius: 10px;
+}
+main .para2 .bt:hover {
+  background-color: blue;
+}
+main .para2 .dec5 {
+  border-radius: 10px;
+}
+main .para2 .bt > section > i {
+  font-size: 40px;
+}
+main .para2 .bt > section > i:hover {
+  color: blue;
+}
+main .para2 .bt3:hover {
+  background-color: rgba(0, 0, 255, 0.801);
+}
+main .para2 .pic6 {
+  height: 250px;
+  border-radius: 20px;
+}
+main .para2 .pic6 > img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  border-radius: 20px;
+}/*# sourceMappingURL=master.css.map */
